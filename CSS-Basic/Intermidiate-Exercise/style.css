@@ -1,0 +1,18 @@
+body{
+	background-image:url("https://media3.speedcafe.com/wp-content/uploads/2022/09/M335773-scaled.jpg");
+   height: 100%
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+header{
+color:white;
+background: black;
+text-align:center;
+padding: 12px;
+font-family: Brush Script MT;
+font-size: 24px;
+border-color: #407F7F;
+}
+
+

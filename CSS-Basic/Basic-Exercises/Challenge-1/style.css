@@ -1,0 +1,19 @@
+body{
+	background: #95DCDC
+
+}
+li{
+	list-style: none;
+	text-align: center;
+	
+}
+
+li:firs{
+	font-size: 1.5rem
+	font-weight:bold;
+
+}
+
+
+
+
