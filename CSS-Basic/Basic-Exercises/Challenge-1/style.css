@@ -8,10 +8,9 @@ li{
 	
 }
 
-li:firs{
-	font-size: 1.5rem
-	font-weight:bold;
-
+ul li::first-letter {
+    font-size: 150%; 
+	
 }
 
 

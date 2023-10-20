@@ -1,18 +1,222 @@
-body{
-	background-image:url("https://media3.speedcafe.com/wp-content/uploads/2022/09/M335773-scaled.jpg");
-   height: 100%
-   background-position:center;
-   background-repeat: no-repeat;
-   background-size: cover;
+body {
+	/* background-image: url("https://media3.speedcafe.com/wp-content/uploads/2022/09/M335773-scaled.jpg"); */
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+   margin: 0px;
+   padding: 0px;
+   background: black;
+
+   
 }
-header{
-color:white;
-background: black;
-text-align:center;
-padding: 12px;
-font-family: Brush Script MT;
-font-size: 24px;
-border-color: #407F7F;
+
+header {
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 12px;
+	font-family: 'Brush Script MT'; 
+	font-size: 24px;
+	border-color: #407F7F;
+}
+
+nav {
+   background-color:#407F7F ;
+   display: flex;
+   justify-content: space-around; 
+   height: 60px; 
+   justify-content: center;
+   align-items: center; 
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 10;
+}
+
+li a{
+   font-size: 40px;
+   font-family: 'Brush Script MT'; 
+   color:white;
+   text-decoration: none;
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex; 
+  }
+  
+li  {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      padding-left: 150px;
+      
+}
+
+img {
+   padding-top: 60px;
+   height: auto;
+   max-width: 100%;
+}
+
+   .container {
+   display: flex;
+   align-items: center;
+   text-align: center; 
+   width: 100%;
+   /* margin-top: 10px;   
+   padding-top: 20px; */
+   /* margin: 0 auto;  */
+   background-color:white!important;
+   /* margin: 30px; */
+   
+   
 }
 
 
+/* .photo {
+   padding-top: 30px;
+   width: 100%;
+   background-color: aliceblue;
+   align-items: center;
+} */
+
+#photo1 {
+   width: 500px;
+   height: 500px;
+   /* border-radius: 50px; */
+   /* box-shadow: 0 0 10px rgba(0,0,0,.5); */
+   padding-left: 40px;
+   /* padding-bottom: 10px; */
+   margin: 30px;
+
+}
+
+.text {
+   position: absolute;
+   top: 190%;
+   left: 60%;
+   transform: translate(-50%, -50%);
+   /* color: blac; */
+   background: white;
+   border-style: solid;
+   border-color: #407F7F;
+   padding: 20px;
+   border-radius: 5px;
+
+}
+
+p {
+   color: black;
+}
+
+h4 {
+   font-size: 18px;
+   color: white;
+}
+
+.title{
+   background-color:white;
+   margin: 0px;
+   padding: 0px;
+   padding-top: 10px;
+   font-family: 'Brush Script MT'; 
+   color: #407F7F;
+   text-align: center;
+   font-size: 30px;
+   z-index: 100;
+}
+
+#carreer{
+   background-color: #407F7F;
+   color: aliceblue;
+}
+
+.container2{
+   background-color: aliceblue;
+   height: 100%;
+   width: 100%;
+
+}
+
+.container2 {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 20px;
+   background-color:#407F7F;
+   color: black;
+   font-size: 25px;
+   /* border: 20px; */
+   /* border-color: blueviolet;
+   z-index: 10; */
+   /* border-style: solid; */
+}
+
+.item {
+   text-align: center;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+
+.card {
+   width: 100%;
+   height: auto; 
+   background: #800080;
+   border-radius: 5px;
+   text-align: center;
+   color: #407F7F;
+   overflow: hidden;
+   font-family: inherit;
+   z-index: 1;
+   /* margin: 20px 0;  */
+}
+
+.img4 {
+   display: flex;
+   margin: 20px auto;
+   width: 75px;
+   height: 75px;
+   border: 1px solid #7905B0;
+   border-radius: 50%;
+   font-size: 11px;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.5s;
+   z-index: 99;
+   background-color: #407F7F;
+}
+
+#letter {
+   opacity: 0;
+   transition: all 0.5s;
+}
+
+.heading {
+   padding: 10px;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+svg {
+   padding: 0 5px;
+   cursor: pointer;
+}
+
+.card:hover .img4 {
+   transform: scale(1.1);
+   border: 1px solid #407F7F;
+}
+
+.card:hover h1,
+.card:hover #letter {
+   opacity: 1;
+}
